@@ -122,8 +122,8 @@ sitemap:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-  repo: https://github.com/Yumi0606/yumi.github.io
-  branch: main
+    repo: https://github.com/Yumi0606/yumi.github.io
+    branch: main
   # example, https://github.com/hexojs/hexojs.github.io
   - type: git
     repo: https://github.com/Yumi0606/yumi.github.io
