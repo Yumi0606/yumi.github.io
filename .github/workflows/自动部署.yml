@@ -43,9 +43,10 @@ jobs:
                hexo generate
    
             - name: Deploy to GitHub Pages
-              uses: JamesIves/github-pages-deploy-action@v4
+             
+              uses: actions/deploy-pages@v4
               with:
                 repository-name: Yumi0606/yumi.github.io
-                token: ${{ secrets.GITHUB_TOKEN }}
+                token: ${{ secrets.key }}
                 folder: public
                 branch: source
