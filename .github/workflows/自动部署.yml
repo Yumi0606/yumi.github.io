@@ -39,8 +39,8 @@ jobs:
 
             - name: 生成静态文件
               run: |
-              hexo clean
-              hexo generate
+               hexo clean
+               hexo generate
       
            
     deploy:
