@@ -46,5 +46,6 @@ jobs:
               uses: JamesIves/github-pages-deploy-action@v4
               with:
                 repository-name: Yumi0606/yumi.github.io
+                token: ${{ secrets.GITHUB_TOKEN }}
                 folder: public
                 branch: source
