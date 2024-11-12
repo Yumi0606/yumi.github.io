@@ -46,7 +46,7 @@ jobs:
              
               uses: actions/deploy-pages@v4
               with:
-                repository-name: Yumi0606/yumi.github.io
+                repository-name: Yumi0606/yumi0606.github.io
                 token: ${{ secrets.GITHUB_TOKEN }}
                 folder: public
                 branch: source
